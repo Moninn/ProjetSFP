@@ -6,21 +6,23 @@
   <title>Accueil — Équipe dév</title>
 </head>
 <body>
-  <div class="container">
+  <div class="container">    
+    <div class="php-info">
+        <?php
+            echo 'Version de PHP : ' . phpversion();
+        ?>
+    </div>
     <header>
       <h1>Page accueil — Équipe développement</h1>
       <p>Choisir une page ci-dessous :</p>
     </header>
-    
-    <div class="php-info">
-        <?php
-            
-        ?>
-    </div>
-
-    <div class="links">
-      <!-- Lien vers une page développeurs -->
+        <div class="links">
+       <!-- Lien vers une page développeurs -->
        <a href="../pages/angel.php">Angel</a>
+       <a href="../pages/moninn.php">Moninn</a>
+
+       <!-- Lien vers la page infos php -->
+       <a href="../pages/phpinfo.php">PHPinfo</a>
     </div>
   </div>
 </body>
