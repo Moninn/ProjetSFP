@@ -1,0 +1,68 @@
+/* ----------- Style global ----------- */
+body {
+    font-family: 'Segoe UI', Roboto, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #f4f6f9;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* ----------- En-tête ----------- */
+header {
+    background: linear-gradient(135deg, #0066ff, #00b7ff);
+    color: white;
+    text-align: center;
+    padding: 50px 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5rem;
+}
+
+header p {
+    font-size: 1.2rem;
+    opacity: 0.9;
+}
+
+/* ----------- Sections ----------- */
+section {
+    background: white;
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+}
+
+section h2 {
+    color: #0066ff;
+    border-bottom: 2px solid #00b7ff;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+/* ----------- Compétences ----------- */
+.skills {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.skills span {
+    background: #e8f0fe;
+    color: #0066ff;
+    padding: 8px 14px;
+    border-radius: 20px;
+    font-weight: 500;
+    transition: all 0.3s ease;
+    cursor: default;
+}
+
+.skills span:hover {
+    background: #0066ff;
+    color: white;
+    transform: scale(1.05);
+}

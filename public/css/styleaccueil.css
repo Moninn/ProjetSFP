@@ -1,0 +1,73 @@
+/* ----------- Style global ----------- */
+body {
+    font-family: 'Segoe UI', Roboto, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(135deg, #f4f6f9, #dbeafe);
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+/* ----------- Conteneur principal ----------- */
+.container {
+    background: white;
+    padding: 40px 60px;
+    border-radius: 16px;
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    max-width: 600px;
+    width: 90%;
+}
+
+/* ----------- En-tête ----------- */
+header h1 {
+    color: #0066ff;
+    margin-bottom: 10px;
+    font-size: 1.8rem;
+}
+
+header p {
+    color: #666;
+    font-size: 1.1rem;
+}
+
+/* ----------- Section liens ----------- */
+.links {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.links a {
+    text-decoration: none;
+    background: #0066ff;
+    color: white;
+    padding: 12px 20px;
+    border-radius: 10px;
+    font-weight: 500;
+    transition: all 0.3s ease;
+}
+
+.links a:hover {
+    background: #0052cc;
+    transform: translateY(-3px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* ----------- Infos PHP ----------- */
+.php-info {
+    position: absolute;
+    top: 15px;
+    right: 20px;
+    background: #e8f0fe;
+    color: #0066ff;
+    padding: 6px 12px;
+    border-radius: 8px;
+    font-size: 0.9rem;
+    font-weight: 500;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+}
