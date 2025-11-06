@@ -17,7 +17,7 @@ $formation = [
 <head>
     <meta charset="UTF-8">
     <title><?php echo "Moninn Ly" ?></title>
-    <link rel="stylesheet" href="../css/moninn.css">
+    <link rel="stylesheet" href="../css/style.css">
 </head>
 <body>
 <div id="system-date">
