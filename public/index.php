@@ -19,14 +19,13 @@
     </header>
         <div class="links">
        <!-- Lien vers une page développeurs -->
-       <a href="../pages/angel.php">Angel</a>
        <a href="../pages/moninn.php">Moninn</a>
 
             <!-- Lien vers la page infos php -->
             <a href="git.php">git</a>
 
        <!-- Lien vers la page infos php -->
-       <a href="../pages/phpinfo.php">PHPinfo</a>
+       <a href="phpinfo.php">PHPinfo</a>
     </div>
   </div>
 </body>

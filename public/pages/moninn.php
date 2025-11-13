@@ -10,14 +10,26 @@ $formation = [
     "2022 - 2024 BTS SIO (SLAM) - IS2D, Annonay",
     "2019 - 2022 BAC PRO (MELEC) - Lycée Boissy d'Anglas, Annonay"
 ];
+
+date_default_timezone_set('UTC');
+
+$competences = [
+        "HTML", "CSS", "JavaScript", "PHP", "C#", ".NET", "Git",
+        "Webflow", "WordPress", "MySQL", "PostgreSQL", "Python"
+];
+$formation = [
+        "2025 - 2026 Bachelor CDWFS – 3ᵉ année - École ORT, Lyon",
+        "2022 - 2024 BTS SIO (SLAM) - IS2D, Annonay",
+        "2019 - 2022 BAC PRO (MELEC) - Lycée Boissy d'Anglas, Annonay"
+];
 ?>
 
 <!DOCTYPE html>
 <html lang="fr">
 <head>
     <meta charset="UTF-8">
-    <title><?php echo "Moninn Ly" ?></title>
-    <link rel="stylesheet" href="../css/style.css">
+    <title>Moninn Ly</title>
+    <link rel="stylesheet" href="../css/moninn.css">
 </head>
 <body>
 <div id="system-date">
@@ -25,17 +37,19 @@ $formation = [
 </div>
 <div id="cv">
     <div id="title-block">
-        <h1 id="title"><?php echo "Moninn Ly" ?></h1>
-        <h2 id="subtitle"><?php echo "Développeur Informatique" ?></h2>
+        <h1 id="title">Moninn Ly</h1>
+        <h2 id="subtitle">Développeur Informatique</h2>
     </div>
 
     <div id="infos">
-        <p><strong>Nom :</strong> <?php echo "Moninn Ly" ?></p>
-        <p><strong>Email :</strong> <?php echo "1moninnly@gmail.com" ?></p>
-        <p><strong>Téléphone :</strong> <?php echo "06 16 71 65 73" ?></p>
+        <p><strong>Nom :</strong> Moninn Ly</p>
+        <p><strong>Email :</strong> 1moninnly@gmail.com</p>
+        <p><strong>Téléphone :</strong> 06 16 71 65 73</p>
     </div>
 
-    <div id="summary"><?php echo "À la recherche d’une alternance en développement informatique – 3ᵉ année Bachelor CDWFS (École ORT)" ?></div>
+    <div id="summary">
+        À la recherche d’une alternance en développement informatique – 3ᵉ année Bachelor CDWFS (École ORT)
+    </div>
 
     <div id="skills-block">
         <h3>Compétences</h3>
@@ -57,3 +71,5 @@ $formation = [
 </div>
 </body>
 </html>
+
+
