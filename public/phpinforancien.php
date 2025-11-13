@@ -1,4 +1,3 @@
-
 <?php
 /**
  * Trouve la racine du dépôt Git en remontant depuis le répertoire courant

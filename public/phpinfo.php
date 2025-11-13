@@ -17,6 +17,7 @@ if (stripos(PHP_OS, 'WIN') === 0) {
     $gitPath = $gitOutput[0] ?? '';
 }
 echo $gitPath . "<br>";
+$gitPath = "git" ;
 
 // Fallback si non trouvé
 if (empty($gitPath)) {
@@ -36,10 +37,14 @@ if (empty($gitPath)) {
 
 // Récupérer la branche
 if ($gitPath) {
-    $cmd = "\"$gitPath\" -C \"$repoDir\" rev-parse --abbrev-ref HEAD";
+//    $cmd = "\"$gitPath\" -C \"$repoDir\" rev-parse --abbrev-ref HEAD";
+    $cmd = "echo '' | sudo -S $gitPath -C \"$repoDir\" rev-parse --abbrev-ref HEAD";
     echo $cmd;
-    exec($cmd, $branchOutput, $branchReturn);
+    $exec = exec($cmd, $branchOutput, $branchReturn);
     $branch = $branchOutput[0] ?? '';
+    var_dump($exec) ;
+    var_dump($branchOutput) ;
+    var_dump($branchReturn) ;
 } else {
     $branch = 'Git non trouvé';
 }
