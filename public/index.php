@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <title>Accueil — Équipe dév</title>
-  <link rel="stylesheet" href="../css/styleaccueil.css">
+  <link rel="stylesheet" href="CSS/styleaccueil.css">
 </head>
 <body>
   <div class="container">    
@@ -19,7 +19,7 @@
     </header>
         <div class="links">
        <!-- Lien vers une page développeurs -->
-       <a href="../pages/moninn.php">Moninn</a>
+       <a href="pages/moninn.php">Moninn</a>
 
             <!-- Lien vers la page infos php -->
             <a href="git.php">git</a>
