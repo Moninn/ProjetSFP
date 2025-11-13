@@ -1,17 +1,18 @@
 <?php
 $repoDir = __DIR__;
+$branch = 'moninn'; // Change la branche ici
 
 if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['update'])) {
-    $output = shell_exec("git -C $repoDir pull origin main 2>&1");
+    $cmd = "git -C \"$repoDir\" pull origin $branch 2>&1";
+    $output = shell_exec($cmd);
 
-    if (strpos(strtolower($output), 'error') === false) {
+    if (strpos(strtolower($output), 'fatal') === false && strpos(strtolower($output), 'error') === false) {
         echo "<p>Mise à jour réussie :</p>";
-        echo "<pre>$output</pre>";
-        echo '<p><a href="index.php">Retour à l\'accueil</a></p>';
     } else {
-        echo "<p>Erreur lors de la mise à jour des sources :</p>";
-        echo "<pre>$output</pre>";
+        echo "<p>Erreur lors de la mise à jour :</p>";
     }
+    echo "<pre>$output</pre>";
+    echo '<p><a href="index.php">Retour à l\'accueil</a></p>';
     exit();
 }
 ?>
