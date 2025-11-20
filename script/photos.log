@@ -138,3 +138,14 @@
 [2025-11-20 10:21:11] Purge des anciennes sauvegardes...
 [2025-11-20 10:21:11] Purge terminée (conservation des 5 dernières sauvegardes).
 [2025-11-20 10:21:11] Sauvegarde terminée avec succès.
+[2025-11-20 10:40:18] Dossier de sauvegarde créé : C:\wamp64\www\sfp_per1\script/../backup/2025-11-20_10-40-18
+[2025-11-20 10:40:18] Sauvegarde des fichiers de configuration...
+[2025-11-20 10:40:18] OK : C:\wamp64\www\sfp_per1\script/../script/backup.php
+[2025-11-20 10:40:18] OK : C:\wamp64\www\sfp_per1\script/../script/scriptmoninn.php
+[2025-11-20 10:40:18] Sauvegarde des photos modifiées (sans 'small')...
+[2025-11-20 10:40:18] Photos sauvegardées et compressées.
+[2025-11-20 10:40:18] Sauvegarde compressée : C:\wamp64\www\sfp_per1\script/../backup/2025-11-20_10-40-18.zip
+[2025-11-20 10:40:18] Copie vers C:\wamp64\www\sfp_per1\script/../BackupsGroupes/Groupe1 réussie
+[2025-11-20 10:40:18] Purge des anciennes sauvegardes...
+[2025-11-20 10:40:18] Purge terminée (conservation des 5 dernières sauvegardes).
+[2025-11-20 10:40:18] Sauvegarde terminée avec succès.
