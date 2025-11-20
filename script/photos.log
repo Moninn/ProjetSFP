@@ -113,3 +113,28 @@
 [2025-11-20 09:10:22] Nouvelle photo ajoutée : photo_2025-11-20_09-10-22_1.jpg
 [2025-11-20 09:10:22] Nouvelle photo ajoutée : photo_2025-11-20_09-10-22_2.jpg
 [2025-11-20 09:10:22] Nouvelle photo ajoutée : photo_small_2025-11-20_09-10-22_3.jpg
+[2025-11-20 10:19:17] Dossier de sauvegarde créé : C:\wamp64\www\sfp_per1\script/../backup/2025-11-20_10-19-17
+[2025-11-20 10:19:17] Sauvegarde des fichiers de configuration...
+[2025-11-20 10:19:17] OK : C:\wamp64\www\sfp_per1\script/../script/backup.php
+[2025-11-20 10:19:17] OK : C:\wamp64\www\sfp_per1\script/../script/scriptmoninn.php
+[2025-11-20 10:19:17] Sauvegarde des photos modifiées (sans 'small')...
+[2025-11-20 10:19:17] Aucune nouvelle photo à sauvegarder.
+[2025-11-20 10:19:17] Sauvegarde compressée : C:\wamp64\www\sfp_per1\script/../backup/2025-11-20_10-19-17.zip
+[2025-11-20 10:19:17] Copie vers C:\wamp64\www\sfp_per1\script/../BackupsGroupes/Groupe1 réussie
+[2025-11-20 10:19:17] Purge des anciennes sauvegardes...
+[2025-11-20 10:19:17] Purge terminée (conservation des 5 dernières sauvegardes).
+[2025-11-20 10:19:17] Sauvegarde terminée avec succès.
+[2025-11-20 09:21:09] Nouvelle photo ajoutée : photo_2025-11-20_09-21-09_1.jpg
+[2025-11-20 09:21:09] Nouvelle photo ajoutée : photo_2025-11-20_09-21-09_2.jpg
+[2025-11-20 09:21:09] Nouvelle photo ajoutée : photo_small_2025-11-20_09-21-09_3.jpg
+[2025-11-20 10:21:11] Dossier de sauvegarde créé : C:\wamp64\www\sfp_per1\script/../backup/2025-11-20_10-21-11
+[2025-11-20 10:21:11] Sauvegarde des fichiers de configuration...
+[2025-11-20 10:21:11] OK : C:\wamp64\www\sfp_per1\script/../script/backup.php
+[2025-11-20 10:21:11] OK : C:\wamp64\www\sfp_per1\script/../script/scriptmoninn.php
+[2025-11-20 10:21:11] Sauvegarde des photos modifiées (sans 'small')...
+[2025-11-20 10:21:11] Photos sauvegardées et compressées.
+[2025-11-20 10:21:11] Sauvegarde compressée : C:\wamp64\www\sfp_per1\script/../backup/2025-11-20_10-21-11.zip
+[2025-11-20 10:21:11] Copie vers C:\wamp64\www\sfp_per1\script/../BackupsGroupes/Groupe1 réussie
+[2025-11-20 10:21:11] Purge des anciennes sauvegardes...
+[2025-11-20 10:21:11] Purge terminée (conservation des 5 dernières sauvegardes).
+[2025-11-20 10:21:11] Sauvegarde terminée avec succès.
