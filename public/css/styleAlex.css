@@ -1,0 +1,92 @@
+body {
+    font-family: 'Segoe UI', Roboto, sans-serif;
+    background: linear-gradient(135deg, #f0f4f8, #d9e2ec);
+    margin: 0;
+    padding: 0;
+    color: #102a43;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+header {
+    background: #243b53;
+    color: #fff;
+    text-align: center;
+    padding: 40px 20px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2rem;
+}
+
+header p.lead {
+    color: #d9e2ec;
+    font-size: 1rem;
+}
+
+main.container {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+}
+
+.card {
+    background: white;
+    border-radius: 12px;
+    padding: 30px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+    max-width: 600px;
+    width: 100%;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+}
+
+.card h2 {
+    margin-top: 0;
+    color: #334e68;
+}
+
+.meta {
+    color: #829ab1;
+    font-size: 0.9rem;
+    margin-bottom: 10px;
+}
+
+.cv {
+    line-height: 1.6;
+    color: #243b53;
+}
+
+.cv ul {
+    list-style: disc;
+    padding-left: 20px;
+}
+
+.cv h4 {
+    margin-bottom: 6px;
+    color: #334e68;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    color: #627d98;
+    background: #f0f4f8;
+    font-size: 0.9rem;
+    border-top: 1px solid #d9e2ec;
+}
+
+@media print {
+    header, footer { display: none; }
+    .card { page-break-after: always; box-shadow: none; border: none; }
+    body { background: white; color: black; }
+}
