@@ -11,7 +11,6 @@
     <div class="php-info">
         <?php
             echo 'Version de PHP : ' . phpversion();
-            echo 'testddqssqdsqdqsdqsd';
         ?>
     </div>
     <header>
