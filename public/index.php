@@ -20,8 +20,8 @@
     </header>
         <div class="links">
        <!-- Lien vers une page développeurs -->
-       <a href="pages/moninn.php">Moninn</a>
-       <a href="pages/alexandre-iglesias.php">Alexandre</a>
+            <a href="pages/moninn.php">Moninn</a>
+            <a href="pages/alexandre-iglesias.php">Alexandre</a>
             <!-- Lien vers la page infos php -->
             <a href="git.php">git</a>
 
