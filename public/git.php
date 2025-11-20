@@ -22,11 +22,17 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['update'])) {
 <head>
     <meta charset="UTF-8">
     <title>Mettre à jour le site</title>
+    <link rel="stylesheet" href="css/style.css"> <!-- Lien vers ton fichier CSS -->
 </head>
 <body>
-<form method="POST">
-    <h2>Mettre à jour le site depuis Git</h2>
-    <button type="submit" name="update">Mettre à jour</button>
-</form>
+<div class="container">
+    <header>
+        <h1>Mise à jour du site</h1>
+        <p>Synchronisez votre projet avec Git</p>
+    </header>
+    <form method="POST">
+        <button type="submit" name="update">Mettre à jour</button>
+    </form>
+</div>
 </body>
 </html>

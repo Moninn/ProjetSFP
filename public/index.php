@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <title>Accueil — Équipe dév</title>
-  <link rel="stylesheet" href="CSS/styleaccueil.css">
+  <link rel="stylesheet" href="CSS/style.css">
 </head>
 <body>
   <div class="container">    

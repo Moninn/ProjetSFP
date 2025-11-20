@@ -71,3 +71,22 @@ header p {
     font-weight: 500;
     box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
 }
+
+/* ----------- Bouton ----------- */
+button {
+    background: #0066ff;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 10px;
+    font-size: 1rem;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+button:hover {
+    background: #0052cc;
+    transform: translateY(-3px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
