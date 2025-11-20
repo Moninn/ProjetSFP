@@ -14,8 +14,8 @@ $logFile   = "photos.log";     // fichier de log
 $dbHost = 'localhost';
 $dbPort = '5432';
 $dbName = 'myapp_db';
-$dbUser = 'postgres';  // à adapter
-$dbPass = 'mdp';       // à adapter
+$dbUser = 'postgres';  
+$dbPass = 'mdp';       
 
 // --- Connexion à PostgreSQL ---
 try {
